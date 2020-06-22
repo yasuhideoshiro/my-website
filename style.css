@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+
+}
+
+header{
+    background-color:rgba(231, 235, 23, 0.671);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 20vh;
+    font-size: 20px;
+
+}
+.header-left span{
+    font-size: 40px;
+    padding: 20px 40px;
+   
+}
+.header-right span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container{
+    height: 300px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.box1, .box2, .box3,.box4{
+    height: 250px;
+    width: 24vw;
+    border: 1px solid black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.makunouti{
+    height: 200px;
+    width: 200px;
+}
+.higawari{
+    font-size: 25px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: yellow;
+    font-family: 'Merienda', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+}
+@media screen and (min-width:780px){
+    .higawari{
+     font-size: 40px;
+     background-color: coral;
+    }
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1587655579550-f2f1c588ea76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+    background-size: cover;
+}
+
+
+
+
+.name{font-size: 30px;
+     color: blue;
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+}
+
+
+
+.menu .company .kyuuzin{
+    height: 150px;
+    width: 100vw;
+}
+
+
+.photo{
+    width: 40%;
+    height: 250px;
+
+}
+.dest{
+    width: 50%;
+    line-height: 1.5;
+    padding: 20px 10px;
+}
+.class{
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    padding-left: 100px;
+}   
+.description {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    
+}
+.description2{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.boshuu{
+    margin: 20px 100px;
+}
+
+
+
+.form{padding: 20px 100px;}
+
+button{
+    border: 1px solid black;
+    padding: 20px 40px;
+    margin: 10px;
+    background-color: aqua;
+}
+button:hover{
+background-color: yellow;
+padding: 30px 80px;
+}
+
+footer{
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+
+}
