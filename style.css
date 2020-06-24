@@ -41,6 +41,34 @@ header{
 
 
 
+
+@media screen and (max-width:780px){
+.container{
+    height: 100%;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+}
+@media screen and (max-width:780px){
+.box1, .box2, .box3,.box4{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px;
+}
+}
+
+
+
 .box1, .box2, .box3,.box4{
     height: 250px;
     width: 24vw;
@@ -53,19 +81,24 @@ header{
     padding: 10px 20px;
 }
 
+
 .makunouti{
     height: 200px;
     width: 200px;
 }
+
+
 .higawari{
     font-size: 25px;
     display: flex;
+    justify-content: center;
    align-items: center;
     flex-direction: column;
     padding: 30px;
     background-color: yellow;
     font-family: 'Merienda', cursive;
     font-family: 'Nanum Pen Script', cursive;
+    height: 450px;
 }
 @media screen and (min-width:780px){
     .higawari{
@@ -75,6 +108,19 @@ header{
 }
 
 
+ @keyframes bigger-font{
+    0%{font-size: 24px;
+    } 
+    50%{
+        font-size: 27px;
+    }
+    100%{
+        font-size: 30px;
+    }
+}
+.higawari{
+    animation: bigger-font 5s ease-in 5 1s alternate ;
+}
 
 main{
     display: flex;
@@ -104,7 +150,7 @@ main{
 
 .photo{
     width: 40%;
-    height: 250px;
+    height: 200px;
 
 }
 .dest{
@@ -135,12 +181,19 @@ main{
 }
 
 .boshuu{
-    margin: 20px 100px;
+    margin: 30px 100px;
+    padding: 30px 0;
+   
+}
+.youkou{
+    font-size: 30px;
+    color: blue;
 }
 
 
 
 .form{padding: 20px 100px;}
+
 
 button{
     border: 1px solid black;
